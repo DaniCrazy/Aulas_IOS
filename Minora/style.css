@@ -119,30 +119,30 @@ section {
 
 
 
+/* SEÇÃO FUNCIONALIDADES -------------------------------------------------------*/
+
 #funcionalidades {
     list-style-type: none;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-#funcionalidades ul li {
+#funcionalidades ol li {
     background-color: #957D95;
     color: #fff;
-    padding: 5px;
-    margin: 0px 10px;
     border-radius: 10px;
-    font-size: 15px;
-    display: inline;
     transition: background-color 0.3 ease, colo 0.3 ease;
+    margin-bottom: 10px;
 }
 
-#funcionalidades ul li:hover {
+#funcionalidades ol li:hover {
     background-color: #fff;
     color: #957D95;
 }
 
 
 
-/* RODAPÉ ----------------------------------------------------------------------------- */
+/* RODAPÉ ----------------------------------------------------------------------*/
 
 footer {
     background-color: #957D95;
